@@ -1,0 +1,44 @@
+
+programming    : c,c++,java...
+scripting lang :js, python...
+
+------------------------------
+progr | script
+
+dynamically typed:
+statically typed:
+
+
+int x =100
+x = 100
+
+
+server side
+client side
+
+js always runs on client
+
+js compiler babble.js
+
+
+Netscape comm  firefox  spider monkey
+chrome v8
+safari 
+edge chakra
+
+
+ways to write js code:
+internal js
+inline js
+external js
+
+
+-------------------------
+
+block...
+
+scope:
+
+var  : global scope
+let  : block scope
+const : block scope
