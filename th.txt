@@ -42,3 +42,36 @@ scope:
 var  : global scope
 let  : block scope
 const : block scope
+
+
+operator:
+operators are special symobols which is used to perform any operation on operands
+
+unery operator: it reqires only one operand a++ , --a
+binary operator:binary operator requires two operands a+b
+ternary operator:it reqires 3 operand
+
+-------------------------------------------------------------
+arithmatic operator:+,-,*,/,%,++,--
+assignment operator:= , +=, -=, *=, /=, %=, **=
+logical operator:&&,||,!
+comparison operator:<.<=,>=,>,==,!=,===,!==
+bitwise operator:& ,|,^,~,<<,>>
+ternary operator:?: 
+
+-------------------------------------------------------------
+
+decision making:
+if else :
+
+    if(condition){
+        //true block
+        }else{
+            //false block
+        }
+
+switch case
+loops
+
+
+
