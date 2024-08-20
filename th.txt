@@ -74,4 +74,21 @@ switch case
 loops
 
 
+logical operator:
+&&
+||
+!
+
+cond1  && cond2
+T      T       true
+F      -       false
+T      F       false
+
+
+cond1  || cond2
+
+T     -       True
+F     T       True
+F     F       False
+
 
