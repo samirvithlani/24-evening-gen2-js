@@ -92,3 +92,18 @@ F     T       True
 F     F       False
 
 
+
+types of loop:
+2 types of loop are there
+entry control loop: for, while
+
+
+for:when you know the number of iteration
+while:when you dont know the number of iteration
+
+for(initialization ; condition ; increment/decrement){
+    
+}
+
+exit control loop : do while
+
