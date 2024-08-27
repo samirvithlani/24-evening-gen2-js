@@ -117,3 +117,30 @@ exit control loop : do while
     = 1 + 1296 + 81 + 256 = 1634
 
 */    
+
+
+//var amount =  999;
+500,200,100,50,20,10,5,2,1
+--->500 * 1 = 500  
+remining : 499
+--> 200 * 2 = 400
+remining : 99
+50 * 1 = 50
+remining : 49
+20 * 2 = 40
+remining : 9
+5 * 1 = 5
+remining : 4
+2 * 2 = 4
+
+
+500 rs 1 note
+200 rs 2 note
+100 rs 0 note
+50 rs 1 note
+20 rs 2 note
+10 rs 0 note
+5 rs 1 note
+2 rs 2 note
+1 rs 0 note
+
