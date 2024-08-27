@@ -1,3 +1,7 @@
+
+console.log(2**3)//2*2*2
+console.log(3**4)//3*3*3*3
+
 var no =54748;
 var temp = no;
 var temp1 = no;
