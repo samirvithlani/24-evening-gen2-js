@@ -1,4 +1,4 @@
-var no =123;
+var no =56790;
 //123 / 10 ==? 12
 //12 / 10 ==? 1
 //1 / 10 ==? 0
@@ -12,7 +12,7 @@ var no =123;
 
 var count =0;
 
-while(no>0){
+while(no>=1 ){
 
     //no = no / 10
     no = Math.floor(no/10)
