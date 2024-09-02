@@ -144,3 +144,22 @@ remining : 4
 2 rs 2 note
 1 rs 0 note
 
+
+//please enter opening bal:
+min op balc req is 10000
+if user enteres less than 10000 then ask again to enter balance..
+//give 3 chance only to enter correct balance
+//after 3 chance print error message in console..
+//if user enter correct balacne bw 1 to 3 chance print success message in console
+
+
+
+
+
+
+
+
+
+
+
+
