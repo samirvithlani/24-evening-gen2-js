@@ -152,6 +152,38 @@ if user enteres less than 10000 then ask again to enter balance..
 //after 3 chance print error message in console..
 //if user enter correct balacne bw 1 to 3 chance print success message in console
 
+number
+string.. "char.."
+boolean
+undefined
+
+var name = "roayl";
+
+string stores data in array:
+array stroes data in index.. 
+index always starts with zero..
+
+"roayl"
+[r][o][y][a][l]
+[0][1][2][3][4]
+
+--------------------------------------------------
+mutable: which can be changed
+immutable: which cannot be changed
+
+js string immutable: same reference will be created in memory
+
+var x = "royal; -->memory....  #9090
+x + "technosft" --> same memory... #9090
+x = x + "technosft" --> 9091
+
+task 1 :
+find no of space in string
+find no of word in string..
+
+
+
+
 
 
 
