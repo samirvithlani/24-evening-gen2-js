@@ -1,0 +1,10 @@
+
+
+indexOf("x") --> number
+lastIndexOf("x") --> number
+includes("x") --> boolean
+startsWith("x") --> boolean
+endsWith("x") --> boolean
+trim() --> string
+trimStart() --> string
+trimEnd() --> string
