@@ -185,6 +185,18 @@ find no of word in string..
 include --> 
 
 
+"india is my country"
+
+
+JSON: javascript object notation
+
+//student detail:
+id name email age  ...10 20
+// 2 file..
+{20} object wrap... JSON
+
+
+
 
 
 
