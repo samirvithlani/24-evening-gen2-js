@@ -196,6 +196,63 @@ id name email age  ...10 20
 {20} object wrap... JSON
 
 
+functions:
+
+function is a block of code which is used to perform a specific task
+use | advantage:
+1. code reusability
+2. code optimization
+3. code maintainability
+4. code readability
+
+
+//void main() //function
+
+///function 
+//returntype functionnname(function parametr){
+    //function body
+    //return value
+}
+
+//to create function is javascript we can use function keyword
+
+//1000 code..
+// line draw() -->50
+//console.log("----------------------------------------------------------------");
+//console.log("----------------------------------------------------------------");
+//console.log("----------------------------------------------------------------");
+//console.log("----------------------------------------------------------------");
+
+
+funtion()
+function drawLine(){
+    console.log("################################################################");
+}
+
+call() -->5
+
+
+50...
+
+
+50..
+
+
+50...
+
+150 line...
+
+
+type of functions
+2 type of functions are there
+1. built in function
+2. user defined function
+
+4 types of function:
+1)with return type and with parameter
+2)with return type and without parameter
+3)without return type and with parameter
+4)without return type and without parameter
 
 
 
