@@ -12,7 +12,7 @@ add(); //calling function
 
 function greetings(){
 
-    var time ="12:00";
+    var time ="22:00";
     if(time >= "00:00" && time < "12:00"){
         console.log('Good Morning');
     }
