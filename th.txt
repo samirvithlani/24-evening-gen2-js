@@ -259,6 +259,26 @@ type of functions
 
 
 
+menu 
+promt enter your chouce 
+
+1. add
+2. sub
+3. mul
+4. div
+
+
+enter 2 number
+
+
+switch case
+    1
+        add(a,b)
+
+    2
+        sub(a,b)
+
+
 
 
 
