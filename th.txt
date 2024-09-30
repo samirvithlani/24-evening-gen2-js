@@ -283,6 +283,10 @@ switch case
 5 function programme:
 
 
+ternary operator:
+?:
+
+
 
 
 
