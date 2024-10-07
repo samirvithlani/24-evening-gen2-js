@@ -286,10 +286,14 @@ switch case
 ternary operator:
 ?:
 
+array:
+array is a collection of elements ;
+array stores data in index
+index always starts with zero
 
-
-
-
-
+why array:
+1. to store multiple values in single variable
+2. to store similar type of data
+3. to store data in index
 
 
