@@ -297,3 +297,9 @@ why array:
 3. to store data in index
 
 
+
+
+//var lang = ["hindi",..////]
+
+//element length 4 >= true false : every...
+//element it constais h --> true false : some...
