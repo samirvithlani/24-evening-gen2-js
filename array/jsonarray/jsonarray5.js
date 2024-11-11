@@ -73,3 +73,8 @@ console.log(microsofFounders);
 var googleEmppswithsal = companies.find((comp)=>comp.name=="Google").
 employees.filter((emp)=>emp.salary>10000000)
 console.log(googleEmppswithsal)
+
+//var allEmployees = companies.map((comp)=>comp.employees.map((emp)=>emp.name)).flat()
+var allEmployees = companies.flatMap((comp)=>comp.employees.map((emp)=>emp.name))
+console.log(allEmployees)
+    

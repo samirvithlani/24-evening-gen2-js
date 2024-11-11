@@ -1,0 +1,26 @@
+what is event?
+- event is a signal that something has happened
+
+window object
+- window object is the browser window
+- window object is the top level object in the browser
+- window object is the global object in client side javascript
+- window object is the parent object of the browser
+
+document object
+- document object is the webpage
+- document object is the child object of the window object
+- document object is the global object in client side javascript
+- document object is the parent object of the webpage
+
+javascript events:
+- javascript events are actions that can be detected by the browser
+- javascript events are actions that can be detected by the webpage
+
+types of javascript events:
+- mouse events
+- keyboard events
+- form events
+- document events
+- window events
+
