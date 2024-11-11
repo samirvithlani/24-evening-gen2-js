@@ -10,3 +10,19 @@ const buttonClick = () => {
     txt.style.color = "red";
 
 }
+
+
+const buttonDoubleClick = () => {
+    //alert('Button double clicked');
+    const link = document.getElementById("link");
+    console.log(link);//<a id="link" href="https://www.google.com">Google</a>
+    console.log(link.href);//https://www.google.com
+
+
+    //change link
+
+    link.href = "https://www.hotstar.com";
+    link.innerHTML = "Hotstar";
+
+
+}
