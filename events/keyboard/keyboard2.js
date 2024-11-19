@@ -1,0 +1,3 @@
+const checkData = ()=>{
+    alert("blur.")
+}
