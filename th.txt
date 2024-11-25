@@ -303,3 +303,14 @@ why array:
 
 //element length 4 >= true false : every...
 //element it constais h --> true false : some...
+
+
+/jsona rray
+var ompanies [
+{
+    id:"google"
+    image:"google.jpg"
+}
+]
+
+input --> google
