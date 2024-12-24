@@ -314,3 +314,6 @@ var ompanies [
 ]
 
 input --> google
+
+
+scroll page : image load...
