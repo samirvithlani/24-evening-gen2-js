@@ -317,3 +317,10 @@ input --> google
 
 
 scroll page : image load...
+
+
+dom node:
+
+js -> variable --> html -->
+var x document.ge 
+x = increment = "da,sa;,
