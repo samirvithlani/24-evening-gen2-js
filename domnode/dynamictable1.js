@@ -44,6 +44,13 @@ for(let i=0;i<employees.length;i++){
     attandanceTd.innerHTML = employees[i].attandance
 
 
+    if(employees[i].age<24){
+        ageTd.style.color = "green"
+    }
+    if(employees[i].salary<30000){
+        salaryTd.style.backgroundColor = "red"
+    }
+
 
     tr.appendChild(idTD)
     tr.appendChild(nameTd)
