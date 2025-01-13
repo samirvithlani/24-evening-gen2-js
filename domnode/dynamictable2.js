@@ -2,7 +2,7 @@ var employees = [
   {
     id: 101,
     name: "ram",
-    age: 23,
+    age: 25,
     salary: 15000,
     attandance: 22,
   },
@@ -23,70 +23,75 @@ var employees = [
 ];
 
 window.addEventListener("DOMContentLoaded", () => {
-  
-    for (let i = 0; i < employees.length; i++) {
-        createRow(employees[i])
-     }
+  for (let i = 0; i < employees.length; i++) {
+    createRow(employees[i]);
+  }
 });
 
-const createRow = (employee)=>{
+const createRow = (employee) => {
+  const tbody = document.getElementById("tbody");
+  const tr = document.createElement("tr"); //<tr>
 
-    const tbody = document.getElementById("tbody");
-    const tr = document.createElement("tr"); //<tr>
+  const idTD = document.createElement("td");
+  idTD.innerHTML = employee.id;
 
-    const idTD = document.createElement("td");
-    idTD.innerHTML = employee.id;
+  const nameTd = document.createElement("td");
+  nameTd.innerHTML = employee.name;
 
-    const nameTd = document.createElement("td");
-    nameTd.innerHTML = employee.name;
+  const ageTd = document.createElement("td");
+  ageTd.innerHTML = employee.age;
 
-    const ageTd = document.createElement("td");
-    ageTd.innerHTML = employee.age;
+  const salaryTd = document.createElement("td");
+  salaryTd.innerHTML = employee.salary;
 
-    const salaryTd = document.createElement("td");
-    salaryTd.innerHTML = employee.salary;
+  const attandanceTd = document.createElement("td");
+  attandanceTd.innerHTML = employee.attandance;
 
-    const attandanceTd = document.createElement("td");
-    attandanceTd.innerHTML = employee.attandance;
+  if (employee.age < 24) {
+    ageTd.style.color = "green";
+  }
+  if (employee.salary < 30000) {
+    salaryTd.style.backgroundColor = "red";
+  }
 
-    if (employee.age < 24) {
-      ageTd.style.color = "green";
-    }
-    if (employee.salary < 30000) {
-      salaryTd.style.backgroundColor = "red";
-    }
+  const actionTD = document.createElement("td");
+  //detail button
+  const detailButton = document.createElement("button");
+  detailButton.innerHTML = "Detail";
+  detailButton.className = "btn btn-info";
+  detailButton.addEventListener("click", () => {
+    alert(employee.name);
+  });
 
+  const deleteButton = document.createElement("button");
+  deleteButton.innerHTML = "Delete";
+  deleteButton.className = "btn btn-danger";
+  deleteButton.style.marginLeft = "10px";
 
-    const actionTD = document.createElement("td")
-    //detail button
-    const detailButton = document.createElement("button")
-    detailButton.innerHTML = "Detail"
-    detailButton.className="btn btn-info"
-    detailButton.addEventListener("click",()=>{
-      alert(employee.name)
-    })
+  deleteButton.addEventListener("click", () => {
+    tr.remove();
+  });
 
-    const deleteButton = document.createElement("button")
-    deleteButton.innerHTML = "Delete"
-    deleteButton.className="btn btn-danger"
-    deleteButton.style.marginLeft="10px"
+  actionTD.appendChild(detailButton);
+  actionTD.appendChild(deleteButton);
 
-    deleteButton.addEventListener("click",()=>{
-       tr.remove()
-    })
+  tr.appendChild(idTD);
+  tr.appendChild(nameTd);
+  tr.appendChild(ageTd);
+  tr.appendChild(salaryTd);
+  tr.appendChild(attandanceTd);
+  tr.appendChild(actionTD);
 
-    actionTD.appendChild(detailButton)
-    actionTD.appendChild(deleteButton)
+  tbody.appendChild(tr);
+};
 
+const sortData = () => {
+  const tbody = document.getElementById("tbody");
+  console.log(tbody);
+  tbody.innerHTML = "";
 
-
-    tr.appendChild(idTD);
-    tr.appendChild(nameTd);
-    tr.appendChild(ageTd);
-    tr.appendChild(salaryTd);
-    tr.appendChild(attandanceTd);
-    tr.appendChild(actionTD)
-
-    tbody.appendChild(tr);
-
-}
+  employees = employees.sort((a, b) => a.age - b.age);
+  for (let i = 0; i < employees.length; i++) {
+    createRow(employees[i]);
+  }
+};
