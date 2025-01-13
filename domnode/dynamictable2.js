@@ -95,3 +95,18 @@ const sortData = () => {
     createRow(employees[i]);
   }
 };
+
+const searchByName = ()=>{
+  const searchTxt = document.getElementById("searchTxt")
+  //console.log(searchTxt.value)
+  const tbody  = document.getElementById("tbody")
+  tbody.innerHTML = ""
+  //to filter data by name
+  employees = employees.filter((emp)=>{
+    return emp.name.includes(searchTxt.value)
+  })
+  //to generate rows
+  for (let i = 0; i < employees.length; i++) {
+    createRow(employees[i]);
+  }
+}
