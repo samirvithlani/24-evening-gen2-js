@@ -56,11 +56,36 @@ const createRow = (employee)=>{
       salaryTd.style.backgroundColor = "red";
     }
 
+
+    const actionTD = document.createElement("td")
+    //detail button
+    const detailButton = document.createElement("button")
+    detailButton.innerHTML = "Detail"
+    detailButton.className="btn btn-info"
+    detailButton.addEventListener("click",()=>{
+      alert(employee.name)
+    })
+
+    const deleteButton = document.createElement("button")
+    deleteButton.innerHTML = "Delete"
+    deleteButton.className="btn btn-danger"
+    deleteButton.style.marginLeft="10px"
+
+    deleteButton.addEventListener("click",()=>{
+       tr.remove()
+    })
+
+    actionTD.appendChild(detailButton)
+    actionTD.appendChild(deleteButton)
+
+
+
     tr.appendChild(idTD);
     tr.appendChild(nameTd);
     tr.appendChild(ageTd);
     tr.appendChild(salaryTd);
     tr.appendChild(attandanceTd);
+    tr.appendChild(actionTD)
 
     tbody.appendChild(tr);
 
