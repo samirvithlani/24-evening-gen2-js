@@ -1,0 +1,11 @@
+prog:
+process:
+
+2 type process
+syncro : 1 process finish -->2nd process start -->
+        : runway  -->takeoff
+non syncro : multipule ...
+        :road veh -->
+
+non syncronized...
+syncronized: 
